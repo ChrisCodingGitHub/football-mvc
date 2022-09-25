@@ -1,0 +1,29 @@
+﻿@model football_mvc.Models.Game
+
+@{
+    ViewData["Title"] = "All Games";
+}
+
+<h1>All Games</h1>
+
+<div>
+    <hr />
+    <div class="row card-columns">
+        @foreach (Game g in (Game[])ViewData["AllGames"])
+        {
+            <a class="card col-sm-3 text-dark" asp-area="" asp-controller="Games" asp-action="Game" asp-route-gameId="@g.Id">
+                <div class="col-sm-12 card-header">@g.Summary</div>
+                <div class="col-sm-12 card-body">Score</div>
+                <div class="col-sm-12 card-body">@g.Scoreboard.Away - @g.Scoreboard.Home</div>
+                @if (g.Scoreboard.RemainingTime == 0)
+                {
+                    <div class="col-sm-12 card-footer">@g.Status</div>
+                }
+                else
+                {
+                    <div class="col-sm-12 card-footer">Q@(g.Scoreboard.Period) @(g.Scoreboard.RemainingTime/60):@(g.Scoreboard.RemainingTime%60)</div>
+                }
+            </a>
+        }
+    </div>
+</div>

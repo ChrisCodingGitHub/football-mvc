@@ -1,0 +1,134 @@
+{
+  "Status": 200,
+  "Count": 32,
+  "Data": [
+    {
+      "Name": "Arizona Cardinals",
+      "Mascot": "Big Red"
+    },
+    {
+      "Name": "Atlanta Falcons",
+      "Mascot": "Freddie Falcon"
+    },
+    {
+      "Name": "Buffalo Bills",
+      "Mascot": "Billy Buffalo"
+    },
+    {
+      "Name": "Baltimore Ravens",
+      "Mascot": "Poe"
+    },
+    {
+      "Name": "Carolina Panthers",
+      "Mascot": "Sir Purr"
+    },
+    {
+      "Name": "Cincinnati Bengals",
+      "Mascot": "Who Dey"
+    },
+    {
+      "Name": "Cleveland Browns",
+      "Mascot": "Brownie the Elf"
+    },
+    {
+      "Name": "Chicago Bears",
+      "Mascot": "Staley Da Bear"
+    },
+    {
+      "Name": "Dallas Cowboys",
+      "Mascot": "Rowdy"
+    },
+    {
+      "Name": "Denver Broncos",
+      "Mascot": "Miles"
+    },
+    {
+      "Name": "Detroit Lions",
+      "Mascot": "Roary"
+    },
+    {
+      "Name": "Green Bay Packers",
+      "Mascot": "None"
+    },
+    {
+      "Name": "Houstan Texans",
+      "Mascot": "Toro"
+    },
+    {
+      "Name": "Indianapolis Colts",
+      "Mascot": "Blue"
+    },
+    {
+      "Name": "Kansas City Chiefs",
+      "Mascot": "K. C. Wolf"
+    },
+    {
+      "Name": "Los Angeles Chargers",
+      "Mascot": "Boltman"
+    },
+    {
+      "Name": "Los Angeles Rams",
+      "Mascot": "Rampage"
+    },
+    {
+      "Name": "Jacksonville Jaguars",
+      "Mascot": "Jaxson de Ville"
+    },
+    {
+      "Name": "Miami Dolphins",
+      "Mascot": "The Dolphin"
+    },
+    {
+      "Name": "Minnesota Vikings",
+      "Mascot": "Viktor"
+    },
+    {
+      "Name": "New England Patriots",
+      "Mascot": "Pat Patriot"
+    },
+    {
+      "Name": "New Orleans Saints",
+      "Mascot": "Gumbo, Sir Saint"
+    },
+    {
+      "Name": "New York Giants",
+      "Mascot": "None"
+    },
+    {
+      "Name": "New York Jets",
+      "Mascot": "None"
+    },
+    {
+      "Name": "Las Vegas Raiders",
+      "Mascot": "Raider Rusher"
+    },
+    {
+      "Name": "Philadelphia Eagles",
+      "Mascot": "Swoop"
+    },
+    {
+      "Name": "San Francisco 49ers",
+      "Mascot": "Sourdough Sam"
+    },
+    {
+      "Name": "Seattle Seahawks",
+      "Mascot": "Blitz"
+    },
+    {
+      "Name": "Pittsburgh Steelers",
+      "Mascot": "Steely McBeam"
+    },
+    {
+      "Name": "Tampa Bay Buccaneers",
+      "Mascot": "Captain Fear"
+    },
+    {
+      "Name": "Tennessee Titans",
+      "Mascot": "T-Rac"
+    },
+    {
+      "Name": "Washington Commanders",
+      "Mascot": "None"
+    }
+  ]
+}

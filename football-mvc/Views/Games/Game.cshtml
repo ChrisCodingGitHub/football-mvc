@@ -1,0 +1,27 @@
+﻿@model football_mvc.Models.Game
+
+@{
+    var myGame = (Game)ViewData["Game"];
+    ViewData["Title"] = myGame.Summary;
+}
+
+<div>
+    <h4>@myGame.Summary</h4>
+    <hr />
+    <div class="row card card-no-hover">
+        <div class="col-sm-12 card-header">@myGame.Matchup.Away.Name vs @myGame.Matchup.Home.Name</div>
+        <div class="col-sm-12 card-body">Score</div>
+        <div class="col-sm-12 card-body">@myGame.Scoreboard.Away - @myGame.Scoreboard.Home</div>
+        @if (myGame.Scoreboard.RemainingTime == 0)
+        {
+            <div class="col-sm-12 card-body">@myGame.Status</div>
+        }
+        else
+        {
+            <div class="col-sm-12 card-body">Q@(myGame.Scoreboard.Period) @(myGame.Scoreboard.RemainingTime/60):@(myGame.Scoreboard.RemainingTime%60)</div>
+        }
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

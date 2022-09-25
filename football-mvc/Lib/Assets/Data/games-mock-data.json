@@ -1,0 +1,63 @@
+{
+  "Status": 200,
+  "Count": 16,
+  "Data": [
+    {
+      "Id": 1,
+      "Summary": "Titans @ Bills",
+      "Matchup": {
+        "Away": {
+          "Name": "Tennessee Titans"
+        },
+        "Home": {
+          "Name": "Buffalo Bills"
+        }
+      },
+      "Scoreboard": {
+        "Away": 7,
+        "Home": 41,
+        "Period": 4,
+        "RemainingTime": 0
+      },
+      "Status": "Final"
+    },
+    {
+      "Id": 2,
+      "Summary": "Vikings @ Eagles",
+      "Matchup": {
+        "Away": {
+          "Name": "Minnesota Vikings"
+        },
+        "Home": {
+          "Name": "Philadelphia Eagles"
+        }
+      },
+      "Scoreboard": {
+        "Away": 7,
+        "Home": 24,
+        "Period": 4,
+        "RemainingTime": 0
+      },
+      "Status": "Final"
+    },
+    {
+      "Id": 3,
+      "Summary": "Bengals @ Jets",
+      "Matchup": {
+        "Away": {
+          "Name": "Cincinnati Bengals"
+        },
+        "Home": {
+          "Name": "New York Jets"
+        }
+      },
+      "Scoreboard": {
+        "Away": 21,
+        "Home": 13,
+        "Period": 3,
+        "RemainingTime": 433
+      },
+      "Status": "In Progress"
+    }
+  ]
+}
